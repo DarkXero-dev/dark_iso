@@ -144,9 +144,9 @@ logrotate
 ### XeroLinux Build
 
 xerowelcome
+xero-config
 calamares-app
-calamares-cfg
-xero-kde-config
+dark-cala-cfg
 xero-fix-scripts
 xerolinux-mirrorlist
 
@@ -206,47 +206,20 @@ autorandr
 mesa-utils
 xf86-video-qxl
 xf86-video-vesa
-xf86-video-fbdev
 xf86-video-vmware
 qemu-hw-display-qxl
-xf86-video-openchrome
 
 ### Input
 
 piper
-ds4drv
-imwheel
+solaar
 fprintd
 libinput
-gestures
-xpadneo-dkms
-dualsensectl
-fingerprint-gui
 xf86-input-void
 xf86-input-evdev
-iio-sensor-proxy
-libinput-gestures
 game-devices-udev
 xf86-input-vmmouse
 xf86-input-libinput
-xf86-input-synaptics
-libinput-gestures-qt
-xf86-input-elographics
-
-### Network Adapters
-
-broadcom-wl
-rtw89-dkms-git
-rtl8821ce-dkms-git
-
-### Printers & Scanner support
-
-hplip
-hplip-plugin
-print-manager
-printer-support
-scanner-support
-brother-dcp-t710w-lpr-bin
 
 ### G-Streamer
 
@@ -292,7 +265,6 @@ smbclient
 net-tools
 openresolv
 traceroute
-b43-fwcutter
 modemmanager
 networkmanager
 nm-cloud-setup
@@ -301,23 +273,13 @@ wireless_tools
 wpa_supplicant
 linux-wifi-hotspot
 systemd-resolvconf
-networkmanager-vpnc
-networkmanager-pptp
-networkmanager-l2tp
-network-manager-sstp
 network-manager-applet
-networkmanager-openvpn
-systemd-boot-pacman-hook
-networkmanager-strongswan
-networkmanager-openconnect
-mobile-broadband-provider-info
 
 ### Virtual Machine
 
 spice-vdagent
 open-vm-tools
 qemu-guest-agent
-virtualbox-guest-utils
 
 #######################################################
 ###                Applications                     ###
@@ -326,23 +288,43 @@ virtualbox-guest-utils
 ### Applications
 
 jq
+hugo
+wttr
 gmrun
 figlet
 ostree
 numlockx
+timeshift
+wine-meta
 lm_sensors
+caffeine-ng
 samba-support
 appstream-glib
 xremap-kde-bin
+sublime-text-4
+
+### Android
+
+android-tools
+android-sdk-platform-tools
+universal-android-debloater-bin
 
 ### Bat to replace cat
 
 bat
 bat-extras
 
+### Multimedia
+
+ocenaudio-bin
+v4l2loopback-dkms
+v4l2loopback-utils
+spotify-adblock-git
+
 ### Fonts
 
-asian-fonts
+ttf-hactor
+ttf-unifont
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
@@ -352,6 +334,7 @@ ttf-ubuntu-font-family
 awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
 adobe-source-sans-pro-fonts
+ttf-meslo-nerd-font-powerlevel10k
 
 ### Kate Plugins
 
@@ -369,6 +352,7 @@ gtk-engine-murrine
 lightlyshaders-git
 gnome-themes-extra
 kwin-scripts-forceblur
+wallpaper-engine-plasma
 libadwaita-without-adwaita-git
 kwin-effects-sliding-notifications
 
@@ -379,8 +363,11 @@ tela-circle-icon-theme-purple-git
 
 ### Browser
 
-firefox
-firefox-ublock-origin
+vivaldi
+passff-host
+vivaldi-widevine
+freedownloadmanager
+vivaldi-ffmpeg-codecs
 
 ### Multimedia
 
@@ -388,36 +375,38 @@ ffmpeg
 ffmpegthumbs
 ffnvcodec-headers
 
+### USB Tools
+
+mintstick
+etcher-bin
+ventoy-bin
+
+### Office
+
+teamviewer
+hunspell-fr
+hunspell-en_us
+libreoffice-fresh
+
 ### PKG Management
 
 yay-bin
 flatpak
 topgrade
-arch-update
+pamac-all
+pamac-cli
 pacseek-bin
 warehouse-git
 appstream-qt5
+libpamac-full
 pacman-contrib
 pacman-mirrorup
 pacman-bintrans
 rate-mirrors-bin
 pacman-mirrorlist
-
-### Vim For the Fans
-
-vim
-vim-align
-vim-csound
-vim-pastie
-vim-runtime
-vim-nerdtree
-vim-supertab
-vim-syntastic
-vim-gitgutter
-vim-bufexplorer
-vim-editorconfig
-vim-nerdcommenter
-vim-coverage-highlight
+pamac-tray-icon-plasma
+archlinux-appstream-data
+systemd-boot-pacman-hook
 
 #######################################################
 ###                  Libraries                      ###
