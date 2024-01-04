@@ -123,7 +123,7 @@ linux-firmware-marvell
 
 grub
 os-prober
-grub-tools
+grub-hooks
 update-grub
 
 ### archiso-extra
@@ -163,6 +163,7 @@ gtk-update-icon-cache
 ### mkinitcpio stuff
 
 mkinitcpio
+xero-hooks
 mkinitcpio-archiso
 mkinitcpio-firmware
 mkinitcpio-openswap
@@ -271,7 +272,6 @@ nm-cloud-setup
 wireless-regdb
 wireless_tools
 wpa_supplicant
-linux-wifi-hotspot
 systemd-resolvconf
 network-manager-applet
 
@@ -293,6 +293,7 @@ wttr
 gmrun
 figlet
 ostree
+cmatrix
 numlockx
 timeshift
 wine-meta
@@ -319,7 +320,6 @@ bat-extras
 ocenaudio-bin
 v4l2loopback-dkms
 v4l2loopback-utils
-spotify-adblock-git
 
 ### Fonts
 
@@ -330,17 +330,12 @@ otf-libertinus
 tex-gyre-fonts
 ttf-hack-nerd
 xero-fonts-git
+powerline-fonts
 ttf-ubuntu-font-family
 awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
 adobe-source-sans-pro-fonts
 ttf-meslo-nerd-font-powerlevel10k
-
-### Kate Plugins
-
-bash-language-server
-typescript-language-server
-vscode-json-languageserver
 
 ### Theme Tools
 
@@ -363,8 +358,8 @@ tela-circle-icon-theme-purple-git
 
 ### Browser
 
+falkon
 vivaldi
-passff-host
 vivaldi-widevine
 freedownloadmanager
 vivaldi-ffmpeg-codecs
@@ -378,12 +373,11 @@ ffnvcodec-headers
 ### USB Tools
 
 mintstick
-etcher-bin
 ventoy-bin
+balena-etcher
 
 ### Office
 
-teamviewer
 hunspell-fr
 hunspell-en_us
 libreoffice-fresh
@@ -397,7 +391,7 @@ pamac-all
 pamac-cli
 pacseek-bin
 warehouse-git
-appstream-qt5
+appstream-qt
 libpamac-full
 pacman-contrib
 pacman-mirrorup
@@ -407,6 +401,13 @@ pacman-mirrorlist
 pamac-tray-icon-plasma
 archlinux-appstream-data
 systemd-boot-pacman-hook
+
+### Other Crap
+
+go
+rust
+vvv-bin
+neo-matrix
 
 #######################################################
 ###                  Libraries                      ###
@@ -474,8 +475,7 @@ hardinfo-gtk3
 
 parallel
 xsettingsd
-polkit-qt5
-#polkit-qt6
+polkit-qt6
 systemdgenie
 gnome-keyring
 
